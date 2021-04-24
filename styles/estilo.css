@@ -1,0 +1,577 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: 0;
+}
+body
+{
+  background-color: white;
+  
+}
+
+.logo>img
+{
+    height: 15%;
+    width: 9.5%;
+ 
+}
+h1 {
+    font-family: Source Sans Pro;
+    font-size: 50px;
+}
+.menu
+{
+    background-color: black;
+    height: 75px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: blanchedalmond;
+    font-family: Source Sans Pro;
+}
+.items
+{
+    display: flex;
+    list-style: none;
+}
+
+.items>li>a
+{
+    margin: 0 5px;
+    padding: 7px 15px;
+    text-decoration: none;
+    font-size: 18px;
+    display: block;/*para que ocupen todo el espacio disponible en los li */
+    text-transform: uppercase;
+    color: white;
+}
+.items>li:hover
+{
+    transition: 0.15s;
+	-webkit-transition: 0.15s;
+	border-bottom: 4px solid #fff;
+}
+.inicio { /* Div para ¿Quienes somos? */ 
+    position: relative;
+    top: 20px;
+    margin: auto;
+    display: block;
+    width: 83.8%;
+}
+.img {
+    position: relative;
+    top: 25px;
+    display: flex;
+    justify-content: center;
+}
+.img1 {
+    position: relative;
+    top: 35px;
+    display: flex;
+    justify-content: center;
+}
+hr {
+    width: 50%;
+    margin: auto;
+    border-style: solid;
+}
+.titulo {
+    position: relative;
+    top: 75px;
+    display: flex;
+    justify-content: center;
+   
+}
+.texto {
+    position: relative;
+    top: 80px;
+    display: flex;
+    justify-content: center;
+    font-family: Source Sans Pro;
+    font-size: 23px;
+    text-align: center;
+    width: 85%;
+    margin: auto;
+}
+#redes {
+    margin-top: 50px;
+    font-family: Source Sans Pro;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: white;
+}
+.logos img {
+    padding: 15px;
+    width: 128px;
+    height: 128px;
+    position: relative;
+    top: 85px;
+}
+footer {
+    background: black;
+    color: white;
+    font-family: Source Sans Pro;
+    width: 100%;
+    height: 250px;
+    position: relative;
+    top: 125px;
+    text-decoration-color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 175px;
+}
+.logosp {
+    position: relative;
+    top: 10px;
+}
+.logosp img {
+    width: 200px;
+    height: 55px;
+}
+.titulo2 {
+    position: relative;
+    top: 25px;
+    display: flex;
+    justify-content: center;
+}
+.texto2 {
+    position: relative;
+    top: 25px;
+    display: flex;
+    justify-content: center;
+    font-family: Source Sans Pro;
+    font-size: 23px;
+    text-align: center;
+    width: 85%;
+    margin: auto;
+}
+.cursos {
+    position: relative;
+    top: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+.cmasmas {
+    width: 250px;
+    height: 300px;
+    position: relative;
+    top: 50px;
+    border-style: solid;
+    border-radius: 20px;
+    background: black;
+    padding: 25px 21px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    text-align: left;
+}
+.cmasmas img {
+    width: 135px;
+    height: 135px;
+    position: relative;
+    right: 15px;
+    top: -8px;
+}
+.cmasmas p {
+    font-size: 14px;
+    font-family: Source Sans Pro;
+    position: relative;
+    top: 35px;
+}
+.cmasmas:hover
+{	
+    transition: 0.35s;
+	-webkit-transition: 0.35s;
+	position: relative;
+	top: 35px;
+}
+.java {
+    width: 250px;
+    height: 300px;
+    position: relative;
+    top: 50px;
+    border-style: solid;
+    border-radius: 20px;
+    background: black;
+    padding: 25px 21px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    text-align: left;
+}
+.java img {
+    width: 135px;
+    height: 135px;
+    position: relative;
+    right: 25px;
+    top: -8px;
+}
+.java p {
+    font-size: 14px;
+    font-family: Source Sans Pro;
+    position: relative;
+    top: 25px;
+}
+.java:hover
+{	
+    transition: 0.35s;
+	-webkit-transition: 0.35s;
+	position: relative;
+	top: 35px;
+}
+.html {
+    width: 250px;
+    height: 300px;
+    position: relative;
+    top: 50px;
+    border-style: solid;
+    border-radius: 20px;
+    background: black;
+    padding: 25px 5px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    text-align: left;
+}
+.html img {
+    width: 135px;
+    height: 135px;
+    position: relative;
+    top: -10px;
+}
+.html p {
+    font-size: 14px;
+    font-family: Source Sans Pro;
+    position: relative;
+    top: 35px;
+    left: 15px;
+}
+.html:hover
+{	
+    transition: 0.35s;
+	-webkit-transition: 0.35s;
+	position: relative;
+	top: 35px;
+}
+.css {
+    width: 250px;
+    height: 300px;
+    position: relative;
+    top: 50px;
+    border-style: solid;
+    border-radius: 20px;
+    background: black;
+    padding: 25px 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    text-align: left;
+}
+.css img {
+    width: 135px;
+    height: 135px;
+    position: relative;
+    right: 15px;
+    top: -15px;
+}
+.css p {
+    font-size: 14px;
+    font-family: Source Sans Pro;
+    position: relative;
+    top: 35px;
+}
+.css:hover
+{	
+    transition: 0.35s;
+	-webkit-transition: 0.35s;
+	position: relative;
+	top: 35px;
+}
+.titulo3 {
+    position: relative;
+    top: 175px;
+    display: flex;
+    justify-content: center;
+}
+.texto3 {
+    position: relative;
+    top: 175px;
+    display: flex;
+    justify-content: center;
+    font-family: Source Sans Pro;
+    font-size: 23px;
+    text-align: center;
+    width: 85%;
+    margin: auto;
+}
+.php {
+    width: 250px;
+    height: 300px;
+    position: relative;
+    top: 215px;
+    border-style: solid;
+    border-radius: 20px;
+    background: black;
+    padding: 25px 21px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    text-align: left;
+}
+.php img {
+    width: 135px;
+    height: 135px;
+    position: relative;
+    right: 15px;
+    top: -35px;
+
+}
+.php p {
+    font-size: 14px;
+    font-family: Source Sans Pro;
+    position: relative;
+    top: 250px;
+}
+.php:hover
+{	
+    transition: 0.35s;
+	-webkit-transition: 0.35s;
+	position: relative;
+	top: 200px;
+}
+.javascript {
+    width: 250px;
+    height: 300px;
+    position: relative;
+    top: 215px;
+    border-style: solid;
+    border-radius: 20px;
+    background: black;
+    padding: 25px 21px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    text-align: left;
+}
+.javascript img {
+    width: 115px;
+    height: 115px;
+    position: relative;
+    left: 2px;
+    top: -px;
+}
+.javascript p {
+    font-size: 14px;
+    font-family: Source Sans Pro;
+    position: relative;
+    top: 35px;
+    left:;
+}
+.javascript:hover
+{	
+    transition: 0.35s;
+	-webkit-transition: 0.35s;
+	position: relative;
+	top: 200px;
+}
+.mysql {
+    width: 250px;
+    height: 300px;
+    position: relative;
+    top: 215px;
+    border-style: solid;
+    border-radius: 20px;
+    background: black;
+    padding: 25px 21px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    text-align: left;
+}
+.mysql img {
+    width: 135px;
+    height: 135px;
+    position: relative;
+    right: 5px;
+    top: -35px;
+    
+}
+.mysql p {
+    font-size: 14px;
+    font-family: Source Sans Pro;
+    position: relative;
+    top: 35px;
+    left:;
+}
+.mysql:hover
+{	
+    transition: 0.35s;
+	-webkit-transition: 0.35s;
+	position: relative;
+	top: 200px;
+}
+.titulo4 {
+    position: relative;
+    top: 335px;
+    display: flex;
+    justify-content: center;
+}
+.texto4 {
+    position: relative;
+    top: 335px;
+    display: flex;
+    justify-content: center;
+    font-family: Source Sans Pro;
+    font-size: 23px;
+    text-align: center;
+    width: 85%;
+    margin: auto;
+}
+.python {
+    width: 250px;
+    height: 300px;
+    position: relative;
+    top: 360px;
+    border-style: solid;
+    border-radius: 20px;
+    background: black;
+    padding: 25px 21px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    text-align: left;
+}
+.python img {
+    width: 135px;
+    height: 135px;
+    position: relative;
+    right: 15px;
+    top: -15px;
+    
+}
+.python p {
+    font-size: 14px;
+    font-family: Source Sans Pro;
+    position: relative;
+    top: 35px;
+    left:;
+}
+.python:hover
+{	
+    transition: 0.35s;
+	-webkit-transition: 0.35s;
+	position: relative;
+	top: 350px;
+}
+.html2 {
+    width: 250px;
+    height: 300px;
+    position: relative;
+    top: 360px;
+    border-style: solid;
+    border-radius: 20px;
+    background: black;
+    padding: 25px 21px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    text-align: left;
+}
+.html2 img {
+    width: 135px;
+    height: 135px;
+    position: relative;
+    right: 15px;
+    top: -15px;
+    
+}
+.html2 p {
+    font-size: 14px;
+    font-family: Source Sans Pro;
+    position: relative;
+    top: 35px;
+    left:;
+}
+.html2:hover
+{	
+    transition: 0.35s;
+	-webkit-transition: 0.35s;
+	position: relative;
+	top: 350px;
+}
+.css2 {
+    width: 250px;
+    height: 300px;
+    position: relative;
+    top: 360px;
+    border-style: solid;
+    border-radius: 20px;
+    background: black;
+    padding: 25px 21px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    text-align: left;
+}
+.css2 img {
+    width: 135px;
+    height: 135px;
+    position: relative;
+    right: 15px;
+    top: -15px;
+    
+}
+.css2 p {
+    font-size: 14px;
+    font-family: Source Sans Pro;
+    position: relative;
+    top: 35px;
+    left:;
+}
+.css2:hover
+{	
+    transition: 0.35s;
+	-webkit-transition: 0.35s;
+	position: relative;
+	top: 350px;
+}
+.footer {
+    background: black;
+    color: white;
+    font-family: Source Sans Pro;
+    width: 100%;
+    height: 250px;
+    position: relative;
+    top: 125px;
+    text-decoration-color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 175px;
+}
+#redes2 {
+    background: #f6f6f6;
+    margin-top: 395px;
+    font-family: Source Sans Pro;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: white;
+}
