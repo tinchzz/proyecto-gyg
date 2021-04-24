@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+	<html>
+	<head>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="styles/estilo4.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;700&display=swap" rel="stylesheet">
+		<title>Formulario de registro - Mi web</title>
+	</head>
+	<body>
+	<nav class="menu">
+        <label class="logo"> <img src="images/logo.png"></label>
+        <ul class="items">
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="cursosonline.html">Cursos online</a></li>
+            <li><a href="tutores.html">Tutores</a></li>
+        </ul>
+    </nav>
+		<h1>FORMULARIO DE REGISTRO</h1>
+        <p style="color: black; display: flex; justify-content: center; position: relative; top: -15px;"> Antes de realizar la compra, es necesario que te registres.</p>
+		<form method="get" action="">
+			
+			<p>
+				<label for="Nombre">Nombre: </label>
+				<input type="text" name="Nombre" id="nombre" placeholder="Escribe tu nombre" size="20" maxlenght="25" required/><br><br>
+			</p>
+			<p>
+				<label for="Apellido">Apellido: </label>
+				<input type="text" name="Apellido" id="apellido" placeholder="Escribe tu apellido" size="20" maxlenght="25" required/><br><br>
+			</p>
+			<p>
+				<label for="sexo">Sexo: </label>			
+				<input type="radio" name="sexo" id="sexh" value="h" required><label for="sexh"> Hombre </label>
+  				<input type="radio" name="sexo" id="sexm" value="m" required><label for="sexm"> Mujer </label>
+                <input type="radio" name="sexo" id="sexm" value="m" required><label for="sexm"> Otro </label> <br>
+  				<br>
+
+			</p>
+			<p>
+				<label for="Correo">Correo: </label>
+				<input type="email" name="Correo" id="correo" size="25" maxlenght="100" required/>
+			</p>
+			<br>
+			<p>
+				<label for="descipcion">Consulta:</label><br>
+				<textarea name="descripcion" id="descripcion" rows="7" cols="42"></textarea><br>
+			</p>
+			<p>
+				<label for="descipcion">Ocupación:</label><br>
+				<textarea name="descripcion" id="descripcion" rows="7" cols="42"></textarea><br>
+			</p>
+			<p>
+			<input type="checkbox" name="casilla"><label for="casilla">Deseo recibir información sobre novedades y ofertas</label>
+			<br><br>
+			<input type="checkbox" name="casilla2" checked required><label for="casilla2">Declaro haber leido y aceptado las condiciones generales de la página web y la normativa sobre protección de datos</label>
+			<br><br>
+	 	    </p>
+			<p>
+				<input type="submit" value="Enviar" name="enviar">
+				<input type="reset" value="Borrar">
+			</p>
+		</form>
+	<section>
+		<article>
+            <div class="titulo">
+            <h1 style="font-size: 32px; position: relative; top: -60px">SEGUINOS EN NUESTRAS REDES</h1>
+            </div>
+            <div id="redes">
+                <A name="redes">
+                <div class="logos">
+                    <a href="https://www.twitter.com/devcyc20"><img src="images/twitter.png" title="Twitter"></a>
+                    <a href="https://www.instagram.com/devcyc20"><img src="images/instagram.png" title="Instagram"></a>
+                    <a href="https://www.facebook.com/devcyc20"><img src="images/facebook.png" title="Facebook"></a>
+                </div>
+            </div>
+        </article>
+        <article>
+            <h1 style="font-size: 12px;font-family: Source Sans Pro;position: relative; top: 95px; display: flex; justify-content: center;">
+                2021 Courses & Contracts © Todos los derechos reservados
+            </h1>
+        </article>
+    </section>
+    <footer>
+        <div class="footer1">
+             <p>Contactanos:
+            <br>
+            <br>
+            <img src="images/w.png" width="15px" height="15px" title="Whatsapp">
+            +541139827432 - +541123439723
+            <br>
+            <img src="images/e.png" width="15px" height="15px" title="Gmail"> devcyc@gmail.com
+            <p>
+            <br>
+            <p>Todos los certificados están avalados por el Ministerio de Educación</p>
+            <a style="list-style: none;
+             text-decoration: none; color: white;"href="https://www.google.com/maps/place/Z%C3%A1rate+1013,+Sarand%C3%AD,+Provincia+de+Buenos+Aires/@-34.6800156,-58.3316368,17z/data=!3m1!4b1!4m5!3m4!1s0x95a33301ac0ac55b:0x82b145fb1cfba893!8m2!3d-34.68002!4d-58.3294481"><p><img src="images/maps.png" width="20px" style="position: relative; top: 3px; right: 2.5px">Calle Zarate 1013 CP 1874 - Avellaneda, Buenos Aires.</p></a>
+        </div>
+         <div class="footer2">
+            <p>Horarios de atención</p>
+            <br>
+            <p>Lun a Vie: 11:00 am hasta 19:00 pm</p>
+            <p>Sab y Dom: 13:00 pm hasta 18:00 pm</p>
+
+            <div class="logosp">
+                <img src="images/aa.png" title="Metodos de pago">
+            </div>
+        </div>          
+    </footer>
+	</body>
+	</html>
